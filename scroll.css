@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background:   linear-gradient(to right,#fba1b7,#fff0f5,#fba1b7)
+    
+}
+
+.text{
+   color: black;
+   line-height: 10rem;
+   text-align: center;
+   font-family: sans-serif; 
+}
+
+span{
+    background: rgb(164, 209, 247);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 2px 4px black;
+    margin: 0.5rem;
+    display: inline-block;
+    transition: transform 0.2s;
+    width: 150px;
+}
+
+span:hover{
+    transform: scale(1.05);
+}
+
+.indicator{
+    background:   linear-gradient(to right,#740483,#f106e6,#ab032d);
+    height: 20px;
+    border-radius: 4px;
+    width: 20%;
+    position: fixed;
+    top: 0px;
+}
